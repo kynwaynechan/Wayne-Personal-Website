@@ -1,0 +1,90 @@
+/* ===== Element selector ===== */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  color: #e5e5e5;
+  background-color: #2f3437;
+}
+
+/* ===== Custom colors + typography ===== */
+h1, h2, h3 {
+  font-family: Georgia, serif;
+  color: #ff2ec4;
+  font-weight: bold;
+}
+
+/* ===== Header styling ===== */
+header {
+  background-color: #23272a;
+  color: #f2f2f2;
+  padding: 1.5rem;
+  text-align: center;
+}
+
+/* ===== Nav bar ===== */
+nav {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  background-color: #3a3f42;
+  padding: 1rem;
+}
+
+/* ===== Class selector: makes links LOOK like buttons ===== */
+.nav-btn {
+  background-color: #5c6266;
+  color: #f2f2f2;
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+  border-radius: 6px;
+  transition: background-color 0.2s;
+}
+
+.nav-btn:hover {
+  background-color: #787f83;
+}
+
+/* ===== Main content spacing ===== */
+main {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+/* ===== Hobby & project cards ===== */
+.hobby-card,
+.project-entry {
+  background-color: #3a3f42;
+  border: 1px solid #4d5256;
+  border-radius: 8px;
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+}
+
+.hobby-card img,
+.project-entry img {
+  max-width: 100%;
+  border-radius: 6px;
+}
+
+/* ===== Links inside content (not nav) ===== */
+main a {
+  color: #9fb4c7;
+}
+
+main a:hover {
+  color: #c3d4e0;
+}
+
+/* ===== Footer ===== */
+footer {
+  background-color: #23272a;
+  color: #d5d5d5;
+  text-align: center;
+  padding: 1rem;
+}
+
+footer a {
+  color: #9fb4c7;
+}
